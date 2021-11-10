@@ -1,0 +1,14 @@
+README!!!
+
+Скрипт:
+
+#!/bin/bash
+
+PROGDIR=$(dirname "$0")
+cd "${PROGDIR}" || exit
+source ./venv/bin/activate
+pythone3 main.py
+deactivate
+
+
+Програма активуює скрипт та запускає файл на мові пітону
